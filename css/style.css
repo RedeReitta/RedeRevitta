@@ -74,7 +74,12 @@ body {
 /*header section*/
 .hero_area {
   height: 98vh;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background-image: url(../images/paisagem.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* ou "contain", dependendo do que deseja */
+  background-position: center;
+
 }
 
 .hero_area.sub_pages {
