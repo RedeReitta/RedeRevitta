@@ -507,3 +507,32 @@ a:focus {
 }
 
 /* end footer section*/
+
+
+
+
+
+/* TESTE */
+
+
+.floating-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.floating-logo:hover {
+  transform: scale(1.1);
+}
+.floating-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
