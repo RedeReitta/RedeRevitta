@@ -60,10 +60,10 @@
                   <a class="nav-link" href="fruit.html"> Fruits</a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html"> Sobre </a>
+                  <a class="nav-link" href="#sobre"> Sobre </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Seja Revendedor</a>
+                  <a class="nav-link" href="#contact">Seja Revendedor</a>
                 </li>
               </ul>
               <!-- <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -96,7 +96,7 @@
                     Seja Bem-vindo à Rede Revitta! Nossa missão é lhe entregar um catálogo com produtos exclusivos de emagrecimento, saúde e bem-estar no qual somos representantes.
                     Junte-se a nós e seja parte do nosso time de revendedores de sucesso.
                   </p>
-                  <a href="contact.html" class="text-uppercase custom_orange-btn mt-3">
+                  <a href="#contact" class="text-uppercase custom_orange-btn mt-3">
                     Seja Revendedor
                   </a>
                 </div>
@@ -232,7 +232,7 @@
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section class="service_section layout_padding" id="sobre">
     <div class="container">
       <h2 class="custom_heading">Sobre Nós</h2>
       <p class="custom_heading-text">
@@ -279,7 +279,7 @@
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <a href="contact.html" class="custom_dark-btn"> WhatsApp </a>
+        <a href="#contact" class="custom_dark-btn"> Seja Revendedor </a>
       </div>
     </div>
   </section>
@@ -386,6 +386,56 @@
 
   <!-- client section -->
 
+  
+
+  <!-- end client section -->
+
+  <!-- contact section -->
+  <section id="contact" class="contact_section layout_padding">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">
+        <strong>Como se tornar um revendedor</strong>
+      </h2>
+  
+      <div class="text-center mb-5">
+        <img src="images/passo_passo.png" alt="Passo a Passo" class="img-fluid" style="max-width: 700px;" />
+      </div>
+  
+      <div class="revendedor-wrapper" style="display: flex; flex-wrap: wrap; box-shadow: 0 0 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; max-width: 1000px; margin: 0 auto;">
+        <!-- Coluna da imagem -->
+        <div style="flex: 1 1 300px;">
+          <img src="images/mulheres.jpg" alt="Foto ilustrativa" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+  
+        <!-- Coluna do formulário -->
+        <div style="flex: 1 1 400px; padding: 40px; background-color: #fff;">
+          <h3 style="color: #2e7d32;">Seja um revendedor</h3>
+          <p class="mb-4">Comece seu cadastro, é rápido e gratuito!</p>
+  
+          <form id="contactForm">
+            <div class="contact_form-container">
+              <div style="margin-bottom: 15px;">
+                <input type="text" id="nome" placeholder="Nome completo*" required class="form-control" />
+              </div>
+              <div style="margin-bottom: 15px;">
+                <input type="tel" id="telefone" placeholder="Celular*" required class="form-control" />
+              </div>
+              <div style="margin-bottom: 20px;">
+                <input type="email" id="email" placeholder="E-mail*" required class="form-control" />
+              </div>
+              <div>
+                <button type="submit" class="btn btn-success w-100">
+                  Continuar cadastro
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- end contact section -->
+
   <section class="client_section layout_padding">
     <div class="container">
       <h2 class="custom_heading">Depoimentos de Revendedores</h2>
@@ -465,54 +515,6 @@
       </div>
     </div>
   </section>
-
-  <!-- end client section -->
-
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="container">
-      <h2 class="section-title text-center mb-4">
-        <strong>Como se tornar um revendedor</strong>
-      </h2>
-  
-      <div class="text-center mb-5">
-        <img src="images/passo_passo.png" alt="Passo a Passo" class="img-fluid" style="max-width: 700px;" />
-      </div>
-  
-      <div class="revendedor-wrapper" style="display: flex; flex-wrap: wrap; box-shadow: 0 0 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; max-width: 1000px; margin: 0 auto;">
-        <!-- Coluna da imagem -->
-        <div style="flex: 1 1 300px;">
-          <img src="images/mulheres.jpg" alt="Foto ilustrativa" style="width: 100%; height: 100%; object-fit: cover;" />
-        </div>
-  
-        <!-- Coluna do formulário -->
-        <div style="flex: 1 1 400px; padding: 40px; background-color: #fff;">
-          <h3 style="color: #2e7d32;">Seja um revendedor</h3>
-          <p class="mb-4">Comece seu cadastro, é rápido e gratuito!</p>
-  
-          <form id="contactForm">
-            <div class="contact_form-container">
-              <div style="margin-bottom: 15px;">
-                <input type="text" id="nome" placeholder="Nome completo*" required class="form-control" />
-              </div>
-              <div style="margin-bottom: 15px;">
-                <input type="tel" id="telefone" placeholder="Celular*" required class="form-control" />
-              </div>
-              <div style="margin-bottom: 20px;">
-                <input type="email" id="email" placeholder="E-mail*" required class="form-control" />
-              </div>
-              <div>
-                <button type="submit" class="btn btn-success w-100">
-                  Continuar cadastro
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>  
-  <!-- end contact section -->
 
   <!-- map section -->
   <!-- <section class="map_section">
