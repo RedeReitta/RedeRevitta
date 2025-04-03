@@ -536,3 +536,60 @@ a:focus {
   object-fit: cover;
   border-radius: 50%;
 }
+
+
+.navbar-nav .nav-link {
+  transition: all 0.3s ease;
+  position: relative;
+  color: #333; /* ou a cor que preferir */
+}
+
+/* Efeito ao passar o mouse */
+.navbar-nav .nav-link:hover {
+  color: #218838; /* cor ao hover */
+  transform: translateY(-2px);
+}
+
+/* Opcional: linha embaixo animada */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #218838;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+
+.section-title {
+  font-size: 2rem;
+  color: #2e7d32;
+}
+
+.contact_section input.form-control {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact_section .btn-success {
+  background-color: #2e7d32;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.contact_section .btn-success:hover {
+  background-color: #256729;
+}
+
