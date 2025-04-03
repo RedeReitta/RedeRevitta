@@ -93,48 +93,40 @@
         <p>3. Comece a Vender: Com o apoio da Rede Revitta, você pode começar a revender os produtos que somos representantes e conquistar sua independência financeira.</p></p>
         <br>
         <br>
-      <h2 class="font-weight-bold">Contato</h2>
-      <div class="row">
-        <div class="col-md-8 mr-auto">
+      <!-- <h2 class="font-weight-bold">Contato</h2> -->
+      <div style="display: flex; max-width: 900px; margin: 0 auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <!-- Coluna da imagem -->
+        <div style="flex: 1;">
+          <img src="images/mulheres.jpg" alt="Foto ilustrativa" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+      
+        <!-- Coluna do formulário -->
+        <div style="flex: 1; padding: 40px; background-color: #fff;">
+          <h2 class="font-weight-bold" style="color: #2e7d32;">Seja Revendedor</h2>
+          <p>Comece seu cadastro, é rápido e grátis!</p>
+      
           <form id="contactForm">
             <div class="contact_form-container">
               <div>
                 <div>
-                  <input type="text" id="nome" placeholder="Nome" required />
+                  <input type="text" id="nome" placeholder="Nome completo*" required style="width: 100%; margin-bottom: 15px; padding: 10px;" />
                 </div>
                 <div>
-                  <input
-                    type="text"
-                    id="telefone"
-                    placeholder="Telefone"
-                    required
-                  />
+                  <input type="tel" id="telefone" placeholder="Celular*" required style="width: 100%; margin-bottom: 15px; padding: 10px;" />
                 </div>
                 <div>
-                  <input
-                    type="email"
-                    id="email"
-                    placeholder="Email"
-                    required
-                  />
+                  <input type="email" id="email" placeholder="E-mail*" required style="width: 100%; margin-bottom: 15px; padding: 10px;" />
                 </div>
-                <!-- <div class="mt-5">
-                  <input
-                    type="text"
-                    id="mensagem"
-                    placeholder="Message"
-                    required
-                  />
-                </div> -->
-                <div class="mt-5">
-                  <button type="submit">Quero ser revendedor</button>
+                <div class="mt-4">
+                  <button type="submit" style="width: 100%; padding: 12px; background-color: #ccc; border: none; cursor: pointer;">
+                    Continuar cadastro
+                  </button>
                 </div>
               </div>
             </div>
           </form>
         </div>
-      </div>
-    </div>
+      </div>      
   </section>
 
   <script>
