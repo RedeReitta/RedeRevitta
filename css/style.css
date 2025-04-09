@@ -79,7 +79,7 @@ fbody {
 .hero_area {
   height: 98vh;
   /* background-color: #f7f7f7; */
-  background-image: url(../images/paisagem.png);
+  /* background-image: url(../images/paisagem.png); */
   background-repeat: no-repeat;
   background-size: cover; /* ou "contain", dependendo do que deseja */
   background-position: center;
@@ -539,6 +539,21 @@ a:focus {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.nav-link-teste {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #22721f; /* verde */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link-teste:hover {
+  background-color: #218838; /* verde mais escuro no hover */
 }
 
 
